@@ -20,10 +20,7 @@
       2,
       "always"
     ],
-    "space-before-function-paren": [
-      "error",
-      "never"
-    ],
+    "space-before-function-paren": "off",
     "camelcase": [
       "error",
       {

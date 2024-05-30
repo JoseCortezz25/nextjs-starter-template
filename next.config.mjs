@@ -10,8 +10,8 @@ const __dirname = dirname(__filename);
 const nextConfig = {
   sassOptions: {
     includePaths: [join(__dirname, "src/styles")],
-    prependData: `@import "main.scss"`,
-  },
+    prependData: `@import "main.scss";`
+  }
 };
 
 export default nextConfig;
