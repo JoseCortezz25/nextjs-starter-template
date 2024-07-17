@@ -7,12 +7,16 @@ const config: StorybookConfig = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@chromatic-com/storybook',
-    '@storybook/addon-interactions'
+    '@storybook/addon-interactions',
+    "@storybook/addon-postcss",
   ],
   framework: {
     name: '@storybook/nextjs',
     options: {}
   },
-  staticDirs: ['../public']
+  staticDirs: ['../public'],
+  docs: {
+    autodocs: "tag",
+  },
 };
 export default config;
