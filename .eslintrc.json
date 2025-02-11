@@ -39,6 +39,6 @@
     ]
   },
   "ignorePatterns": [
-    "src/components/ui/*"
+    "src/components/ui/*" // Ignore all shadcn/ui components in src/components/ui
   ]
 }
